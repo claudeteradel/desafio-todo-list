@@ -1,0 +1,26 @@
+.box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+    width: 46rem;
+    height: 15.25rem;
+    border-top: 1px solid #333333;
+}
+
+.box strong {
+    font-family: 'Inter';
+    color: var(--gray-300);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.box span {
+    font-family: 'Inter';
+    color: var(--gray-300);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: -0.75rem;
+}
